@@ -1,1 +1,1 @@
-test openfaas-cloud
+openfaas-cloud
