@@ -1,1 +1,2 @@
-openfaas-cloud 
+openfaas-cloud
+
