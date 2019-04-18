@@ -3,10 +3,16 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  hello-openfaas:
-    lang: python3
-    handler: ./hello-openfaas
-    image: desaegher/hello-openfaas
+  #hello-openfaas:
+   # lang: python3
+    #handler: ./hello-openfaas
+    #image: desaegher/hello-openfaas
+    #environment:
+      #content_type: text/html
+  figlet:
+    lang: Dockerfile
+    handler: ./figlet
+    image: desaegher/figlet
     environment:
       content_type: text/html
 

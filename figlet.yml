@@ -1,0 +1,13 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080  # can be a remote server
+
+functions:
+  figlet:
+    lang: Dockerfile
+    handler: ./figlet
+    image: desaegher/figlet
+    environment:
+      content_type: text/html
+
+
