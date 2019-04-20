@@ -4,7 +4,7 @@ provider:
 
 functions:
   hello-openfaas:
-    lang: python3-arm64
+    lang: dockerfile
     handler: ./hello-openfaas
     image: desaegher/hello-openfaas
     environment:
