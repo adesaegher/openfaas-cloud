@@ -4,7 +4,7 @@ provider:
 
 functions:
   hello-openfaas:
-    lang: python3
+    lang: python3-armhf
     handler: ./hello-openfaas
     image: desaegher/hello-openfaas
     environment:
